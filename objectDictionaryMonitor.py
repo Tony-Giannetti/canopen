@@ -42,6 +42,7 @@ class ObjectDictionaryMonitor(QtWidgets.QWidget):
             btn.move((node_id * 100)-100, 0)
             btn.setText(btnName)
             btn.setObjectName(btnName)
+            btn.setProperty(btnName)
             #print(node_id)
             print(btnName)
             #btn.clicked.connect(self.verify(node_id))
