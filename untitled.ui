@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1029</width>
+    <height>603</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="node_01_pos">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>20</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_enable_drive">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>60</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Click me!</string>
+   </property>
+   <property name="text">
+    <string>Enable Drive</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_disable_drive">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>120</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Click me!</string>
+   </property>
+   <property name="text">
+    <string>Disable Drive</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_reset_node">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>240</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Click me!</string>
+   </property>
+   <property name="text">
+    <string>Reset Node</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_start_sync">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>180</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Click me!</string>
+   </property>
+   <property name="text">
+    <string>Start Sync</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="node_01_pos_2">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>20</y>
+     <width>141</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Node_01 Position</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_run_demo">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>310</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Click me!</string>
+   </property>
+   <property name="text">
+    <string>Run Demo</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_go">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>60</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Click me!</string>
+   </property>
+   <property name="text">
+    <string>Go</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_01">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>60</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_jog_positive">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>150</y>
+     <width>151</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Click me!</string>
+   </property>
+   <property name="text">
+    <string>Jog +</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_jog_negative">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>260</y>
+     <width>151</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Click me!</string>
+   </property>
+   <property name="text">
+    <string>Jog -</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_02">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>150</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhNone</set>
+   </property>
+   <property name="inputMask">
+    <string>#####</string>
+   </property>
+   <property name="maxLength">
+    <number>5</number>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_apply">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>510</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Click me!</string>
+   </property>
+   <property name="text">
+    <string>Apply</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_enable_key_jog">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>460</y>
+     <width>121</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enable
+Key Jog</string>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>440</y>
+     <width>109</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>RadioButton</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>150</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Speed (rpm)</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>60</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Move to
+Absolute Position</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
